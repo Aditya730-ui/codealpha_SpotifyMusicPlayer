@@ -1,0 +1,114 @@
+
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 90px; /* To prevent content hiding behind fixed playbar */
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+    height: auto;
+  }
+
+  .cards {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .carditem {
+    width: 90%;
+    height: auto;
+  }
+
+  .playbar {
+     position: fixed;
+  
+  left: 50%;    /* Start from center */
+  transform: translateX(-50%); /* Center horizontally */
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  height: 60px;
+  background-color: rgb(55, 56, 54);
+  border-radius: 40px;
+  z-index: 1000;
+  margin-top: 90vh;
+  }
+
+  .spotify {
+    margin-left: 90px; 
+    
+  
+    
+  }
+  .navbar img{
+    height: 40px;
+  }
+ .navbar{
+    height: 200px
+ }
+
+  .details {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+
+  .details button, .credential {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .credential {
+    font-size: 1.2rem;
+  }
+
+  .login {
+    justify-content: center;
+  }
+
+  .songs-list {
+    height: 350px;
+  }
+
+  .song-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .progress-container {
+    width: 100%;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+.playbar button{
+  height: 30px;
+  margin: 4px;
+}
+.playbar img{
+    height: 20px;
+}
+.progress-container{
+    width: 100px
+  }
+  .time-display{
+    font-size: 0.8rem
+    ;
+  }
+  .details li{
+    display: block;
+    margin-left: 7px;
+  }
+  footer{
+    height:400px;
+  }
+}
